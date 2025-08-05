@@ -3,7 +3,7 @@ import { DayProvider } from "./context/DayContext";
 import Nav from "./Nav";
 import HomePage from "./HomePage";
 import SolarDate from "./SolarDate";
-import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { nav } from "framer-motion/client";
 function RedirectToToday() {
