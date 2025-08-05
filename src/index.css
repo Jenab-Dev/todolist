@@ -20,8 +20,12 @@
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
   }
 }
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 .d{
     color: #19192c;
 }

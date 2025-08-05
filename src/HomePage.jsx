@@ -108,8 +108,12 @@ function HomePage() {
     return (
         <div
             ref={containerRef}
-            className="w-full h-dvh relative overflow-hidden"
-        >
+            className="w-full h-dvh relative overflow-hidden hide-scrollbar select-none "
+            
+        ><style>{`
+                .hide-scrollbar::-webkit-scrollbar { display: none; }
+                .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+            `}</style>
                <p>
                         <div className="absolute left-1/2 bottom-0 -translate-x-1/2 -translate-y-1/2 text-shadow-md text-shadow-zinc-500 ">
                 Day {day}

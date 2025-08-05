@@ -1,18 +1,17 @@
 {
-  "homepage": "https://jenab-dev.github.io/todolist",
-  "name": "todolist",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  
+    "name": "todolist",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    
+    "homepage": "https://jenab-dev.github.io/todolist/",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "postbuild": "cp dist/index.html dist/404.html"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",

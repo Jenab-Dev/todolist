@@ -9,7 +9,7 @@ function Nav(props) {
     };
     return (
         <div
-            className={`z-50 w-full h-[500px] absolute  bg-card-bg text-primary flex flex-col justify-between opacity-50 hover:opacity-99 hover:top-0 transition-all duration-400 
+            className={`z-50 w-full h-[500px] absolute  bg-card-bg text-primary flex flex-col justify-between opacity-50 hover:opacity-99 hover:top-0 transition-all duration-400 hide-scrollbar 
             ${isMouseEntered? "top-0 opacity-99" : "top-[-450px] "}
                 `}
             onMouseEnter={() => handleMouse(true)}
